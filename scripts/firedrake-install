@@ -1319,7 +1319,7 @@ if mode == "install":
     if jenkins and ci_testing_firedrake:
         check_call(["ln", "-s", "../../../", "firedrake"])
     else:
-        git_clone("git+https://github.com/firedrakeproject/firedrake.git")
+        git_clone("git+https://github.com/Justincrum/firedrake.git")
 
     # Build the update script as soon as possible so that installation
     # recovery can be attempted if required.
